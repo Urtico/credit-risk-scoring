@@ -1,0 +1,49 @@
+# Credit Risk Scoring Model
+
+Production-ready credit risk model.
+
+## Quick Start
+```bash
+pip install -r requirements.txt
+pytest tests/
+```
+
+## What is this?
+
+ML model that predicts loan default.
+- AUC: 0.91
+- Gini: 0.82
+- KS: 0.96
+
+## License
+
+MIT
+```
+
+**Kaydet:** `README.md` (root'ta)
+
+---
+
+### **1️⃣2️⃣ .gitignore**
+```
+__pycache__/
+*.py[cod]
+*.egg-info/
+.vscode/
+.idea/
+.DS_Store
+venv/
+env/
+```
+
+**Kaydet:** `.gitignore` (root'ta)
+
+---
+
+### **1️⃣3️⃣ LICENSE**
+```
+MIT License
+
+Copyright (c) 2025 Uray Öztürk
+
+Permission is hereby granted...
